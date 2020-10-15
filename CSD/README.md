@@ -76,7 +76,6 @@ Following symbols are used for phoneme annotation.
 | dh      | ð   |
 | ng      | ŋ   |
 | y       | j   |
-|
 
 **Vowels**
 | Phoneme | IPA |
@@ -97,7 +96,6 @@ Following symbols are used for phoneme annotation.
 | eo      | ə   |
 | er      | ɜ:ʳ |
 | oo      | ɔ:  |
-|
 
 # Coming Soon
 - 20 English songs, MIDI and text annoations are under confirmation
