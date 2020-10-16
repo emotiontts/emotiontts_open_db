@@ -5,7 +5,7 @@ This repository contains [Children's Song Dataset (CSD)](https://soonbeomchoi.gi
 
 The dataset is composed of 50 Korean and 50 English songs sung by one Korean female professional pop singer. Each song is recorded in two separate keys resulting in a total of 200 audio recordings. Each audio recording is paired with a MIDI transcription file and a lyrics annotation file.
 
-You can also access the dataset through [this link](https://drive.google.com/drive/folders/12sN_9XpdBq5GbN9S9H3vmW7-6rPWiQZs?usp=sharing), the dataset version of this repository might be behind the latest version.
+You can also access the dataset through [this link](https://drive.google.com/drive/folders/12sN_9XpdBq5GbN9S9H3vmW7-6rPWiQZs?usp=sharing), the version of this repository might be behind the latest version of the dataset.
 
 # Dataset Structure
 The repository is constructed in the following structure. Entire data splits into Korean and English and each langauge splits into 'wav', 'mid' and 'txt' folders. The 'wav' folder contains audio files and the 'mid' folder contains MIDI files that represent score information for each audio. The 'txt' folder contains text files that represents pronunciation information. One song has the same name for an audio, a MIDI, and a text.
