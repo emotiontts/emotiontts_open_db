@@ -37,7 +37,7 @@ Singing voice is an highly expressive sound and so it is hard to define precise 
 Text files represent pronunciation for the corresponding audio. We did not include phonetic alignment because the MIDI notes can be used for syllable timings. For Korean, graphemes match with phonemes so a syllable in a text matches with one note in a MIDI file. When a syllable corresponds to multiple notes, it is replicated.
 
 
-But for English, graphemes do not matches with phonemes so the dataset offers both graphemes in the 'lyric' folder and phonemes in the 'txt' folder. A syllable in the 'txt' folder matches with a note in the 'mid' folder like Korean. For each syllable, phonemes are tied with underbar('_') as the example below.
+But for English, graphemes do not matches with phonemes so the dataset offers both graphemes in the 'lyric' folder and phonemes in the 'txt' folder. A syllable in the 'txt' folder matches with a note in the 'mid' folder like Korean. For each word, phonemes are tied with underbar('_') and each syllable has one vowel as the example below.
 
 In the 'lyric' folder
 ```
@@ -46,7 +46,7 @@ twinkle twinkle little star
 
 In the 'text' folder
 ```
-t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
+t_w_i_ng_k_eo_l t_w_i_ng_k_eo_l l_i_t_eo_l s_t_a_r
 ```
 
 Following symbols are used for phoneme annotation.
