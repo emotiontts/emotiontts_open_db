@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:15f6d3fe0bb09781ce492d3050e3a8bc0c86f763623c211e028af8e6518690dd
-size 435
+Should auld acquaintance be forgot
+and never brought to mind
+Should auld acquaintance be forgot
+and auld lang syne
+
+For auld lang syne my dear 
+For auld lang syne
+We'll take a cup oh kindness yet
+For auld lang syne  
+
+And surely you'll be your pint stowp
+And surely I'll be mine 
+And we'll take a cup oh kindness yet
+For auld lang syne
+
+For auld lang syne my dear
+For auld lang syne
+We'll take a cup oh kindness yet
+For auld lang syne

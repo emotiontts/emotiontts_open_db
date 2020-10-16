@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1540b67d80ca7da7a497c0bfc99529f55c5af6f83d8cd72af137df23257d0afb
-size 203
+나뭇가지에 실처럼 날아든 솜사탕
+하얀 눈처럼 희고도 깨끗한 솜사탕
+엄마 손잡고 나들이 갈때 먹어본 솜사탕
+후후 불면은 구멍이 뚫리는 커다란 솜사탕
