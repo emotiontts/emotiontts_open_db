@@ -51,8 +51,6 @@ t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
 
 Following symbols are used for phoneme annotation.
 
-**Consonants**
-| Consonant    || Vowel        ||
 | Phoneme | IPA | Phoneme | IPA |
 |---------|-----|---------|-----|
 | b       | b   | ae      | æ   |
