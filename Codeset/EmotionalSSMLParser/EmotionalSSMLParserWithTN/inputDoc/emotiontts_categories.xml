@@ -1,0 +1,9 @@
+<emotionml xmlns="http://www.w3.org/2009/10/emotionml" version="1.0">
+    <vocabulary type="category" id="emotiontts">
+        <item name="anger"/>
+        <item name="neutral"/>
+        <item name="happiness"/>
+        <item name="sadness"/>
+    </vocabulary>
+</emotionml>
+

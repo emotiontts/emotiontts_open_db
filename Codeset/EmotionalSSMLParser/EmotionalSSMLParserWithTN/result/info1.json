@@ -1,0 +1,27 @@
+{
+	"text": "안녕하세요.",
+	"lang": "ko",
+	"onlangfailure": "processorchoice",
+	"say-as": {
+		"rawText": "",
+		"interpret-as": "",
+		"format": "",
+		"detail": ""
+	},
+	"voice": {
+		"name": "",
+		"gender": "",
+		"age": "",
+		"variant": "",
+		"onvoicefailure": "priorityselect"
+	},
+	"emotionInfo": {
+		"name": "neutral",
+		"value": ""
+	},
+	"g2p": {
+		"mode": "g2p",
+		"source_lang": "ko_kr",
+		"target_lang": "ko_kr"
+	}
+}

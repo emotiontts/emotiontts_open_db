@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:emo="http://www.w3.org/2009/10/emotionml"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="g2pschema.xsd" xml:lang="ko"
+       version="1.1">
+    <s lang="ko">안녕하세요.</s>
+    <s lang="ko">
+        <g2p mode="g2p" source_lang="ko_kr" target_lang="ko_jr"/>반갑습니다.
+    </s>
+    <voice gender="female" age="37" name="emb &amp; neb">SSML DOC 생성을 위해 개발 중 입니다.</voice>
+    <s lang="ko">
+        <emo:emotion category-set="emotiontts_categories.xml#emotiontts">
+            <emo:category name="sadness" value="0.2"/>
+        </emo:emotion>
+        그럼 다음에 뵈어요.
+    </s>
+    <voice gender="female" age="47" name="emc &amp; nec">
+        <emo:emotion category-set="emotiontts_categories.xml#emotiontts">
+            <emo:category name="happiness" value="0.2"/>
+        </emo:emotion>
+        안녕.
+    </voice>
+</speak>
+
+
+
+
+
+
+

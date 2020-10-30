@@ -1,0 +1,27 @@
+{
+	"text": "그럼 다음에 뵈어요.",
+	"lang": "ko",
+	"onlangfailure": "processorchoice",
+	"say-as": {
+		"rawText": "",
+		"interpret-as": "",
+		"format": "",
+		"detail": ""
+	},
+	"voice": {
+		"name": "",
+		"gender": "",
+		"age": "",
+		"variant": "",
+		"onvoicefailure": "priorityselect"
+	},
+	"emotionInfo": {
+		"name": "sadness",
+		"value": "0.2"
+	},
+	"g2p": {
+		"mode": "g2p",
+		"source_lang": "ko_kr",
+		"target_lang": "ko_kr"
+	}
+}

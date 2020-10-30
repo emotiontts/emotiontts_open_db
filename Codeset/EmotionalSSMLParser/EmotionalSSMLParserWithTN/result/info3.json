@@ -1,0 +1,27 @@
+{
+	"text": "에스에스엠엘 디오씨 생성을 위해 개발 중 입니다.",
+	"lang": "ko",
+	"onlangfailure": "processorchoice",
+	"say-as": {
+		"rawText": "",
+		"interpret-as": "",
+		"format": "",
+		"detail": ""
+	},
+	"voice": {
+		"name": "emb & neb",
+		"gender": "female",
+		"age": "37",
+		"variant": "",
+		"onvoicefailure": "priorityselect"
+	},
+	"emotionInfo": {
+		"name": "neutral",
+		"value": ""
+	},
+	"g2p": {
+		"mode": "g2p",
+		"source_lang": "ko_kr",
+		"target_lang": "ko_kr"
+	}
+}

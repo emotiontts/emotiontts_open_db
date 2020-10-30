@@ -1,0 +1,27 @@
+{
+	"text": "안녕.",
+	"lang": "ko",
+	"onlangfailure": "processorchoice",
+	"say-as": {
+		"rawText": "",
+		"interpret-as": "",
+		"format": "",
+		"detail": ""
+	},
+	"voice": {
+		"name": "emc & nec",
+		"gender": "female",
+		"age": "47",
+		"variant": "",
+		"onvoicefailure": "priorityselect"
+	},
+	"emotionInfo": {
+		"name": "happiness",
+		"value": "0.2"
+	},
+	"g2p": {
+		"mode": "g2p",
+		"source_lang": "ko_kr",
+		"target_lang": "ko_kr"
+	}
+}
