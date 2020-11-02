@@ -29,5 +29,6 @@ Contacts
 ====
 현 플랫폼 관련 이슈는 [이곳](https://github.com/emotiontts/emotiontts_open_db/issues)에 올려주세요.
 
-
-<img src="https://github.com/emotiontts/emotiontts_open_db/120px-Cc-by-nc-sa_icon.svg.png">
+License
+====
+<img src="https://github.com/emotiontts/emotiontts_open_db/blob/master/120px-Cc-by-nc-sa_icon.svg.png">
