@@ -30,169 +30,135 @@ NOTICE
 	o 데이터량
 		1) 개성 표현 음성합성기 개발 고도화를 위한 음성 DB
 			: 9,347문장
-			: 음성데이터, 녹음 대본, 대본 철자전사
 
 	o 디렉토리의 내용
-		pfa/		- 개성 표현 여성 A화자 디렉토리	
-			lab/	- 개성 표현 여성 A화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfa00001.lbl ~ pfa00550.lbl : 음성데이터 레이블 파일
-				: pfa00001.btl ~ pfa00550.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 A화자 음성 데이터
-			script/	- 개성 표현 여성 A화자 음성 데이터 대본(UTF-8)
-				: pfa00001.txt ~ pfa00550.txt : 음성데이터 대본
-				: pfa00001.spl ~ pfa00550.spl : 철자전사
-				: pfa00001.pron ~ pfa00550.pron : 발음전사
+		pfa/	- 개성 표현 여성 A화자 디렉토리	
+			wav/ - 개성 표현 여성 A화자 음성 데이터
+				: pfa00001.wav ~ pfa00550.wav
+			script/ - 개성 표현 여성 A화자 녹음 대본(UTF-8)
+				: pfa00001.txt ~ pfa00550.txt
+			transcript/ - 개성 표현 여성 A화자 녹음 대본 철자전사(UTF-8)
+				: pfa00001.txt ~ pfa00550.txt
 
 		pfb/		- 개성 표현 여성 B화자 디렉토리	
-			lab/	- 개성 표현 여성 B화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfb00001.lbl ~ pfb00620.lbl : 음성데이터 레이블 파일
-				: pfb00001.btl ~ pfb00620.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 B화자 음성 데이터
-			script/	- 개성 표현 여성 B화자 음성 데이터 대본(UTF-8)
-				: pfb00001.txt ~ pfb00620.txt : 음성데이터 대본
-				: pfb00001.spl ~ pfb00620.spl : 철자전사
-				: pfb00001.pron ~ pfb00620.pron : 발음전사
+			wav/ - 개성 표현 여성 B화자 음성 데이터
+				: pfb00001.wav ~ pfb00620.wav
+			script/ - 개성 표현 여성 B화자 녹음 대본(UTF-8)
+				: pfb00001.txt ~ pfb00620.txt
+			transcript/ - 개성 표현 여성 B화자 녹음 대본 철자전사(UTF-8)
+				: pfb00001.txt ~ pfb00620.txt
 
 		pfc/		- 개성 표현 여성 C화자 디렉토리	
-			lab/	- 개성 표현 여성 C화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfc00001.lbl ~ pfc00620.lbl : 음성데이터 레이블 파일
-				: pfc00001.btl ~ pfc00620.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 C화자 음성 데이터
-			script/	- 개성 표현 여성 C화자 음성 데이터 대본(UTF-8)
-				: pfc00001.txt ~ pfc00620.txt : 음성데이터 대본
-				: pfc00001.spl ~ pfc00620.spl : 철자전사
-				: pfc00001.pron ~ pfc00620.pron : 발음전사
+			wav/ - 개성 표현 여성 C화자 음성 데이터
+				: pfc00001.wav ~ pfc00620.wav
+			script/ - 개성 표현 여성 C화자 녹음 대본(UTF-8)
+				: pfc00001.txt ~ pfc00620.txt
+			transcript/ - 개성 표현 여성 C화자 녹음 대본 철자전사(UTF-8)
+				: pfc00001.txt ~ pfc00620.txt				
 
 		pfd/		- 개성 표현 여성 D화자 디렉토리	
-			lab/	- 개성 표현 여성 D화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfd00001.lbl ~ pfd00620.lbl : 음성데이터 레이블 파일
-				: pfd00001.btl ~ pfd00620.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 D화자 음성 데이터
-			script/	- 개성 표현 여성 D화자 음성 데이터 대본(UTF-8)
-				: pfd00001.txt ~ pfd00620.txt : 음성데이터
-				: pfd00001.spl ~ pfd00620.spl : 철자전사
-				: pfd00001.pron ~ pfd00620.pron : 발음전사
+			wav/ - 개성 표현 여성 D화자 음성 데이터
+				: pfd00001.wav ~ pfd00620.wav
+			script/ - 개성 표현 여성 D화자 녹음 대본(UTF-8)
+				: pfd00001.txt ~ pfd00620.txt
+			transcript/ - 개성 표현 여성 D화자 녹음 대본 철자전사(UTF-8)
+				: pfd00001.txt ~ pfd00620.txt					
 
 		pfi/		- 개성 표현 여성 I화자(10대) 디렉토리	
-			lab/	- 개성 표현 여성 I화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfi00001.lbl ~ pfi00477.lbl : 음성데이터 레이블 파일
-				: pfi00001.btl ~ pfi00477.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 I화자 음성 데이터
-			script/	- 개성 표현 여성 I화자 음성 데이터 대본(UTF-8)
-				: pfi00001.txt ~ pfi00477.txt : 음성데이터 대본
-				: pfi00001.spl ~ pfi00477.spl : 철자전사
-				: pfi00001.pron ~ pfi00477.pron : 발음전사
+			wav/ - 개성 표현 여성 I화자 음성 데이터
+				: pfi00001.wav ~ pfi00477.wav
+			script/ - 개성 표현 여성 I화자 녹음 대본(UTF-8)
+				: pfi00001.txt ~ pfi00477.txt
+			transcript/ - 개성 표현 여성 I화자 녹음 대본 철자전사(UTF-8)
+				: pfi00001.txt ~ pfi00477.txt				
 
 		pfl/		- 개성 표현 여성 L화자(50대이상) 디렉토리	
-			lab/	- 개성 표현 여성 L화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfl00001.lbl ~ pfl00700.lbl : 음성데이터 레이블 파일
-				: pfl00001.btl ~ pfl00700.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 L화자 음성 데이터
-			script/	- 개성 표현 여성 L화자 음성 데이터 대본(UTF-8)
-				: pfl00001.txt ~ pfl00700.txt : 음성데이터 대본
-				: pfl00001.spl ~ pfl00700.spl : 철자전사
-				: pfl00001.pron ~ pfl00700.pron : 발음전사
+			wav/ - 개성 표현 여성 L화자 음성 데이터
+				: pfl00001.wav ~ pfl00700.wav
+			script/ - 개성 표현 여성 L화자 녹음 대본(UTF-8)
+				: pfl00001.txt ~ pfl00700.txt
+			transcript/ - 개성 표현 여성 L화자 녹음 대본 철자전사(UTF-8)
+				: pfl00001.txt ~ pfl00700.txt				
 
 		pfm/		- 개성 표현 여성 M화자(50대이상) 디렉토리	
-			lab/	- 개성 표현 여성 M화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfm00001.lbl ~ pfm00700.lbl : 음성데이터 레이블 파일
-				: pfm00001.btl ~ pfm00700.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 M화자 음성 데이터
-			script/	- 개성 표현 여성 M화자 음성 데이터 대본(UTF-8)
-				: pfm00001.txt ~ pfm00700.txt : 음성데이터 대본
-				: pfm00001.spl ~ pfm00700.spl : 철자전사
-				: pfm00001.pron ~ pfm00700.pron : 발음전사
+			wav/ - 개성 표현 여성 M화자 음성 데이터
+				: pfm00001.wav ~ pfm00700.wav
+			script/ - 개성 표현 여성 M화자 녹음 대본(UTF-8)
+				: pfm00001.txt ~ pfm00700.txt
+			transcript/ - 개성 표현 여성 M화자 녹음 대본 철자전사(UTF-8)
+				: pfm00001.txt ~ pfm00700.txt				
 
 		pfo/		- 개성 표현 여성 O화자(사투리) 디렉토리	
-			lab/	- 개성 표현 여성 O화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfo00001.lbl ~ pfo00350.lbl : 음성데이터 레이블 파일
-				: pfo00001.btl ~ pfo00350.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 O화자 음성 데이터
-			script/	- 개성 표현 여성 O화자 음성 데이터 대본(UTF-8)
-				: pfo00001.txt ~ pfo00350.txt : 음성데이터 대본
-				: pfo00001.spl ~ pfo00350.spl : 철자전사
-				: pfo00001.pron ~ pfo00350.pron : 발음전사
+			wav/ - 개성 표현 여성 O화자 음성 데이터
+				: pfo00001.wav ~ pfo00350.wav
+			script/ - 개성 표현 여성 O화자 녹음 대본(UTF-8)
+				: pfo00001.txt ~ pfo00350.txt
+			transcript/ - 개성 표현 여성 O화자 녹음 대본 철자전사(UTF-8)
+				: pfo00001.txt ~ pfo00350.txt
 
 		pfp/		- 개성 표현 여성 P화자(사투리) 디렉토리	
-			lab/	- 개성 표현 여성 P화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pfp00001.lbl ~ pfp00350.lbl : 음성데이터 레이블 파일
-				: pfp00001.btl ~ pfp00350.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 여성 P화자 음성 데이터
-			script/	- 개성 표현 여성 P화자 음성 데이터 대본(UTF-8)
-				: pfp00001.txt ~ pfp00350.txt : 음성데이터 대본
-				: pfp00001.spl ~ pfp00350.spl : 철자전사
-				: pfp00001.pron ~ pfp00350.pron : 발음전사
+			wav/ - 개성 표현 여성 P화자 음성 데이터
+				: pfp00001.wav ~ pfp00350.wav
+			script/ - 개성 표현 여성 P화자 녹음 대본(UTF-8)
+				: pfp00001.txt ~ pfp00350.txt
+			transcript/ - 개성 표현 여성 P화자 녹음 대본 철자전사(UTF-8)
+				: pfp00001.txt ~ pfp00350.txt				
 
 		pma/		- 개성 표현 남성 A화자 디렉토리	
-			lab/	- 개성 표현 남성 A화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pma00001.lbl ~ pma00630.lbl : 음성데이터 레이블 파일
-				: pma00001.btl ~ pma00630.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 A화자 음성 데이터
-			script/	- 개성 표현 남성 A화자 음성 데이터 대본(UTF-8)
-				: pma00001.txt ~ pma00630.txt : 음성데이터 대본
-				: pma00001.spl ~ pma00630.spl : 철자전사
-				: pma00001.pron ~ pma00630.pron : 발음전사
+			wav/ - 개성 표현 남성 A화자 음성 데이터
+				: pma00001.wav ~ pma00630.wav
+			script/ - 개성 표현 남성 A화자 녹음 대본(UTF-8)
+				: pma00001.txt ~ pma00630.txt
+			transcript/ - 개성 표현 남성 A화자 녹음 대본 철자전사(UTF-8)
+				: pma00001.txt ~ pma00630.txt		
 
 		pmb/		- 개성 표현 남성 B화자 디렉토리	
-			lab/	- 개성 표현 남성 B화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pmb00001.lbl ~ pmb00640.lbl : 음성데이터 레이블 파일
-				: pmb00001.btl ~ pmb00640.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 B화자 음성 데이터
-			script/	- 개성 표현 남성 B화자 음성 데이터 대본(UTF-8)
-				: pmb00001.txt ~ pmb00640.txt : 음성데이터 대본
-				: pmb00001.spl ~ pmb00640.spl : 철자전사
-				: pmb00001.pron ~ pmb00640.pron : 발음전사
+			wav/ - 개성 표현 남성 B화자 음성 데이터
+				: pmb00001.wav ~ pmb00640.wav
+			script/ - 개성 표현 남성 B화자 녹음 대본(UTF-8)
+				: pmb00001.txt ~ pmb00640.txt
+			transcript/ - 개성 표현 남성 B화자 녹음 대본 철자전사(UTF-8)
+				: pmb00001.txt ~ pmb00640.txt
 
 		pmc/		- 개성 표현 남성 C화자 디렉토리	
-			lab/	- 개성 표현 남성 C화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pmc00001.lbl ~ pmc00660.lbl : 음성데이터 레이블 파일
-				: pmc00001.btl ~ pmc00660.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 C화자 음성 데이터
-			script/	- 개성 표현 남성 C화자 음성 데이터 대본(UTF-8)
-				: pmc00001.txt ~ pmc00660.txt : 음성데이터 대본
-				: pmc00001.spl ~ pmc00660.spl : 철자전사
-				: pmc00001.pron ~ pmc00660.pron : 발음전사
+			wav/ - 개성 표현 남성 C화자 음성 데이터
+				: pmc00001.wav ~ pmc00660.wav
+			script/ - 개성 표현 남성 C화자 녹음 대본(UTF-8)
+				: pmc00001.txt ~ pmc00660.txt
+			transcript/ - 개성 표현 남성 C화자 녹음 대본 철자전사(UTF-8)
+				: pmc00001.txt ~ pmc00660.txt
 
-		pmd/		- 개성 표현 남성 D화자 디렉토리	
-			lab/	- 개성 표현 남성 D화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pmd00001.lbl ~ pmd00660.lbl : 음성데이터 레이블 파일
-				: pmd00001.btl ~ pmd00660.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 D화자 음성 데이터
-			script/	- 개성 표현 남성 D화자 음성 데이터 대본(UTF-8)
-				: pmd00001.txt ~ pmd00660.txt : 음성데이터 대본
-				: pmd00001.spl ~ pmd00660.spl : 철자전사
-				: pmd00001.pron ~ pmd00660.pron : 발음전사
+		pmd/		- 개성 표현 남성 D화자 디렉토리
+			wav/ - 개성 표현 남성 D화자 음성 데이터
+				: pmd00001.wav ~ pmd00660.wav
+			script/ - 개성 표현 남성 D화자 녹음 대본(UTF-8)
+				: pmd00001.txt ~ pmd00660.txt
+			transcript/ - 개성 표현 남성 D화자 녹음 대본 철자전사(UTF-8)
+				: pmd00001.txt ~ pmd00660.txt				
 
-		pmi/		- 개성 표현 남성 I화자(10대) 디렉토리	
-			lab/	- 개성 표현 남성 I화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pmi00001.lbl ~ pmi00550.lbl : 음성데이터 레이블 파일
-				: pmi00001.btl ~ pmi00550.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 I화자 음성 데이터
-			script/	- 개성 표현 남성 I화자 음성 데이터 대본(UTF-8)
-				: pmi00001.txt ~ pmi00550.txt : 음성데이터 대본
-				: pmi00001.spl ~ pmi00550.spl : 철자전사
-				: pmi00001.pron ~ pmi00550.pron : 발음전사	
+		pmi/		- 개성 표현 남성 I화자(10대) 디렉토리
+			wav/ - 개성 표현 남성 I화자 음성 데이터
+				: pmi00001.wav ~ pmi00550.wav
+			script/ - 개성 표현 남성 I화자 녹음 대본(UTF-8)
+				: pmi00001.txt ~ pmi00550.txt
+			transcript/ - 개성 표현 남성 I화자 녹음 대본 철자전사(UTF-8)
+				: pmi00001.txt ~ pmi00550.txt
 
 		pmj/		- 개성 표현 남성 J화자(10대) 디렉토리	
-			lab/	- 개성 표현 남성 J화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pmj00001.lbl ~ pmj00620.lbl : 음성데이터 레이블 파일
-				: pmj00001.btl ~ pmj00620.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 J화자 음성 데이터
-			script/	- 개성 표현 남성 J화자 음성 데이터 대본(UTF-8)
-				: pmj00001.txt ~ pmj00620.txt : 음성데이터 대본
-				: pmj00001.spl ~ pmj00620.spl : 철자전사
-				: pmj00001.pron ~ pmj00620.pron : 발음전사
+			wav/ - 개성 표현 남성 J화자 음성 데이터
+				: pmj00001.wav ~ pmj00620.wav
+			script/ - 개성 표현 남성 J화자 녹음 대본(UTF-8)
+				: pmj00001.txt ~ pmj00620.txt
+			transcript/ - 개성 표현 남성 J화자 녹음 대본 철자전사(UTF-8)
+				: pmj00001.txt ~ pmj00620.txt
 
 		pml/		- 개성 표현 남성 L화자(50대이상) 디렉토리	
-			lab/	- 개성 표현 남성 L화자 음소 레이블링 데이터 : 레이블 구조(음소시작위치 msec, 음소기호)  
-				: pml00001.lbl ~ pml00600.lbl : 음성데이터 레이블 파일
-				: pml00001.btl ~ pml00600.btl : 음성데이터 경계정보 파일
-			raw/	- 개성 표현 남성 L화자 음성 데이터
-			script/	- 개성 표현 남성 L화자 음성 데이터 대본(UTF-8)
-				: pml00001.txt ~ pml00600.txt : 음성데이터 대본
-				: pml00001.spl ~ pml00600.spl : 철자전사
-				: pml00001.pron ~ pml00600.pron : 발음전사
-			
+			wav/ - 개성 표현 남성 L화자 음성 데이터
+				: pml00001.wav ~ pml00600.wav
+			script/ - 개성 표현 남성 L화자 녹음 대본(UTF-8)
+				: pml00001.txt ~ pml00600.txt
+			transcript/ - 개성 표현 남성 L화자 녹음 대본 철자전사(UTF-8)
+				: pml00001.txt ~ pml00600.txt				
 
 기타
 ====
