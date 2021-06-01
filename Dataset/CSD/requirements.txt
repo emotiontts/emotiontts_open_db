@@ -1,0 +1,3 @@
+soundfile
+pretty_midi
+tqdm
