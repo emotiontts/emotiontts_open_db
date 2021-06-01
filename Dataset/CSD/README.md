@@ -77,10 +77,10 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 | IPA       |k |t |p |h |j |w |  |  |  |  |  |  |  |  |  |   |
 
 
-| Vowel     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-| Phoneme   |a |ae|eo|e |o |u |eu|ui|i |  |  |  |  |  |  |  |
-| IPA       |a |ɛ |ʌ |e |o |u |ɯ |ɰi|i |  |  |  |  |  |  |  |
+| Vowel     |  |  |  |  |  |  |  |  |  |
+|-----------|--|--|--|--|--|--|--|--|--|
+| Phoneme   |a |ae|eo|e |o |u |eu|ui|i |
+| IPA       |a |ɛ |ʌ |e |o |u |ɯ |ɰi|i |
 
 
 ## License
