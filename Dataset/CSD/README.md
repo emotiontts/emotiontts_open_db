@@ -54,7 +54,8 @@ t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
 
 Each phonemes are annotated based on the international phonetic alphabet (IPA) and romanized alphabets are used to annotate IPA symbols. Following symbols are used for phoneme annotation.
 
-| English   |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+### English
+| Consonant |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | Phoneme   |b |d |f |g |h |j |k |l |m |n |p |r |s |t |v |w |
 | IPA       |b |d |f |g |h |dʒ|k |l |m |n |p |r |s |t |v |w |
@@ -62,13 +63,13 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 | IPA       |z |ʒ |tʃ|ʃ |θ |ð |ŋ |j |  |  |  |  |  |  |  |  |
 
 
-|           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Vowel     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | Phoneme   |ae|ei|e |ii|i |ai|a |ou|u |ao|uu|oi|au|eo|er|oo|
 | IPA       |æ |eɪ|e |i:|h |dʒ|k |l |m |n |p |r |s |t |v |w |
 
-
-| Korean    |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
+### Korean
+| Consonant |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
 |-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|---|
 | Phoneme   |g |kk|n |d |tt|r |l |m |b |pp|s |ss|ng|j |jj|ch |
 | IPA       |g |k͈ |n |d |t͈ |ɾ |l |m |b |p͈ |s |s͈ |ŋ |ts|ts͈|tsʰ|
@@ -76,7 +77,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 | IPA       |k |t |p |h |j |w |  |  |  |  |  |  |  |  |  |   |
 
 
-|           |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Vowel     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | Phoneme   |a |ae|eo|e |o |u |eu|ui|i |  |  |  |  |  |  |  |
 | IPA       |a |ɛ |ʌ |e |o |u |ɯ |ɰi|i |  |  |  |  |  |  |  |
