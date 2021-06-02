@@ -5,8 +5,9 @@ This repository contains [Children's Song Dataset (CSD)](https://zenodo.org/reco
 2. [Vocal Recording](#vocal_recording)
 3. [MIDI Transcription](#midi_transcription)
 4. [Lyric Annotation](#lyric_annotation)
-5. [License](#license)
-6. [Download](#download)
+5. [Supplementary Code](#supplementary_code)
+6. [License](#license)
+7. [Download](#download)
 
 
 ## 1. Dataset Structure <a name="dataset_structure"></a>
@@ -63,7 +64,7 @@ t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
 Each phonemes are annotated based on the international phonetic alphabet (IPA) and romanized alphabets are used to annotate IPA symbols. Following symbols are used for phoneme annotation.
 
 ### English
-| Consonant |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|Consonant  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
 |-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | Phoneme   |b |d |f |g |h |j |k |l |m |n |p |r |s |t |v |w |
 | IPA       |b |d |f |g |h |dʒ|k |l |m |n |p |r |s |t |v |w |
@@ -91,7 +92,26 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 | IPA       |a |ɛ |ʌ |e |o |u |ɯ |ɰi|i |
 
 
-## 5. License <a name="license"></a>
+## 5. Supplementary Code <a name="supplementary_code"></a>
+This repository also offers dataset validation test code and example code for loading MIDI and text file. To test the dataset run the following command:
+```
+python test.py --data_path ./
+```
+
+If there are not problem found in the dataset, you will get the result as below.
+```
+[Test Result]
+- Test A: ✔ (200/200)
+- Test B: ✔ (200/200)
+- Test C: ✔ (200/200)
+- Test D: ✔ (200/200)
+[MIDI Summary]
+Note Range: 54 ~ 76, Max Note Length: 0.450s
+```
+When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file and a text_file and prints labels like a file in 'csv' folder.
+
+
+## 6. License <a name="license"></a>
 CSD is created by the KAIST [Music and Audio Computing Lab](https://mac.kaist.ac.kr/) under Industrial Technology Innovation Program (No. 10080667, Development of conversational speech synthesis technology to express emotion and personality of robots through sound source diversification) supported support by the Ministry of Trade, Industry & Energy (MOTIE, Korea).
 
 CSD is released under Creative Commons Atribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). It is provided primarily for research purposes and it is prohibited to be used for commercial purposes. When sharing your result based on CSD, any act that defames the original singer is strictly prohibited.
@@ -100,5 +120,5 @@ For more details, we refer to the following publication. We would highly appreci
 
 > *Choi, S., Kim, W., Park, S., Yong, S., & Nam, J. (2020). [Children’s Song Dataset for Singing Voice Research](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). 21th International Society for Music Information Retrieval Conference (ISMIR)*.
 
-## 6. Download <a name="download"></a>
+## 7. Download <a name="download"></a>
 The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa).

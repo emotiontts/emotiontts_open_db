@@ -3,7 +3,6 @@ import os
 import soundfile as sf
 import pretty_midi
 import csv
-from os import path
 from tqdm import tqdm
 
 
@@ -94,7 +93,7 @@ def load_label(filename):
 def test_file_exists(file_dict):
     test_result = True
     for key in file_dict:
-        if not path.exists(file_dict[key]):
+        if not os.path.exists(file_dict[key]):
             test_result = False
             break
 
@@ -134,6 +133,24 @@ def test_length_validity(midi, length):
     return test_result
 
 
+def get_midi_summary(midi, midi_summary=None):
+    if midi_summary is None:
+        midi_summary = dict()
+        midi_summary['max_pitch'] = midi[0].pitch
+        midi_summary['min_pitch'] = midi[0].pitch
+        midi_summary['max_length'] = midi[0].end - midi[0].start
+
+    for note in midi:
+        if note.pitch > midi_summary['max_pitch']:
+            midi_summary['max_pitch'] = note.pitch
+        if note.pitch < midi_summary['min_pitch']:
+            midi_summary['min_pitch'] = note.pitch
+        if note.end - note.start > midi_summary['max_pitch']:
+            midi_summary['max_pitch'] = note.end - note.start
+
+    return midi_summary
+
+
 def bool2mark(validity):
     if validity == True:
         mark = character.Bold + character.LGreen + character.CheckMark + character.Reset
@@ -156,11 +173,11 @@ def print_test_description():
         '- Test D: Length validation test between an audio file and a MIDI file.', sep='\n')
 
 
-def print_result_table(test_result, num_row=5):
+def print_result_table(test_result, num_col=5):
     print(
-        num_row*'-------------------|',
-        num_row*'|  File  | A B C D |',
-        num_row*'|------------------|', sep='\n')
+        num_col*'|------------------|',
+        num_col*'|  File  | A B C D |',
+        num_col*'|------------------|', sep='\n')
     
     multi_row = []
     for i, filename in enumerate(test_result.file_list):
@@ -171,11 +188,11 @@ def print_result_table(test_result, num_row=5):
 
         single_row = f' {filename:6} | {file_exists} {phone_validity} {label_validity} {length_validity} '
         multi_row.append(single_row)
-        if len(multi_row) >= num_row or i == len(test_result.file_list) - 1:
+        if len(multi_row) >= num_col or i == len(test_result.file_list) - 1:
             print('|' + '||'.join(multi_row) + '|')
             multi_row = []
 
-    print(num_row*'--------------------')
+    print(num_col*'--------------------')
 
 
 def print_total_result(test_result):
@@ -190,6 +207,12 @@ def print_total_result(test_result):
         total_result[test_val] = bool2mark(num_true[test_val] == len(test_result.file_list))
 
         print(f'- Test {test_key}: {total_result[test_val]} ({num_true[test_val]}/{len(test_result.file_list)})')
+
+
+def print_midi_summary(midi_summary):
+    print('[MIDI Summary]')
+    print('Note Range: {} ~ {}, Max Note Length: {:.3f}s'.format(
+        midi_summary['min_pitch'], midi_summary['max_pitch'], midi_summary['max_length']))
 
 
 def str2bool(value):
@@ -208,17 +231,18 @@ def main(args):
 
     test_result = TestResult()
     for i, language in enumerate(LANGUAGES):
-        data_path = {key: path.join(args.path, language, key) for key in FILE_TREE}
-        for key in data_path:
-            test_result.path_exists[key] = path.exists(data_path[key])
+        data_folder = {key: os.path.join(args.data_path, language, key) for key in FILE_TREE}
+        for key in data_folder:
+            test_result.path_exists[key] = os.path.exists(data_folder[key])
         
-        progress_bar = tqdm(sorted(os.listdir(data_path['wav'])), leave=False, bar_format='{l_bar}{bar:30}{r_bar}')
+        midi_summary = None
+        progress_bar = tqdm(sorted(os.listdir(data_folder['wav'])), leave=False, bar_format='{l_bar}{bar:30}{r_bar}')
         for filename in progress_bar:
-            filename = path.splitext(filename)[0]
+            filename = os.path.splitext(filename)[0]
             progress_bar.set_description(filename)
             test_result.file_list.append(filename)
 
-            file_dict = {key: path.join(data_path[key], filename + FILE_TREE[key]) for key in FILE_TREE}
+            file_dict = {key: os.path.join(data_folder[key], filename + FILE_TREE[key]) for key in FILE_TREE}
             test_result.file_exists[filename] = test_file_exists(file_dict)
             
             audio, length = load_audio(file_dict['wav'])
@@ -230,18 +254,21 @@ def main(args):
             test_result.label_validity[filename] = test_label_validity(midi, text, label)
             test_result.length_validity[filename] = test_length_validity(midi, length)
 
+            midi_summary = get_midi_summary(midi, midi_summary)
+
     if args.print_result_table:
-        print_result_table(test_result, num_row=args.num_row)
+        print_result_table(test_result, num_col=args.num_col)
     print_total_result(test_result)
+    if args.print_midi_summary:
+        print_midi_summary(midi_summary)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--path', type=str, help='The path of CSD')
-    parser.add_argument('--num_row', type=int, default=5)
-    parser.add_argument('--print_result_table', type=str2bool, default=True)
-    parser.add_argument('--print_note_range', type=str2bool, default=True)
-    parser.add_argument('--print_max_note_length', type=str2bool, default=True)
+    parser.add_argument('--data_path', type=str, default='./', help='The path of CSD')
+    parser.add_argument('--num_col', type=int, default=5, help='The number of files to print in a row')
+    parser.add_argument('--print_result_table', type=str2bool, default=True, help='Condition for printing result table')
+    parser.add_argument('--print_midi_summary', type=str2bool, default=True, help='Condition for printing MIDI information summary')
     args = parser.parse_args()
 
     main(args)
