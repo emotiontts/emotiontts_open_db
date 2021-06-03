@@ -1,3 +1,14 @@
+<style type="text/css">
+.tg {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+
 # CSD: Children's Song Dataset for Singing Voice Research
 This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa).
 
@@ -66,17 +77,6 @@ t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
 ```
 
 Each phonemes are annotated based on the international phonetic alphabet (IPA) and romanized symbols are used to annotate IPA symbols. Following symbols are used for phoneme annotation.
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-</style>
 
 ### English
 
