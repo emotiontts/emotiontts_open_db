@@ -37,7 +37,7 @@ The entire data splits into Korean and English and each language splits into 'wa
 - 'mid': Score information in MIDI format
 - 'lyric': Lyric information in grapheme-level
 - 'txt': Lyric information in syllable and phoneme-level
-- 'csv': Note onset and offset and syllable timing in comma-separated value (CSV) format
+- 'csv': Note onsets and offsets and syllable timings in comma-separated value (CSV) format
 
 ## 2. Vocal Recording <a name="vocal_recording"></a>
 Children’s songs usually have various versions in different styles so one of them that suites for the singer is chosen. While recording vocals, the singer sang along with the background music tracks. She deliberately rendered the singing in a “plain” style refraining from expressive singing skills. The recording took place in a dedicated soundproof room. Singer recorded three to four takes for each song and the best parts are combined into a single audio track. Two identical songs with different keys are discriminated by character 'a' and 'b' at the end of a filename.
