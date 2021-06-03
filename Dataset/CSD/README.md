@@ -369,4 +369,4 @@ For more details, we refer to the following publication. We would highly appreci
 > *Choi, S., Kim, W., Park, S., Yong, S., & Nam, J. (2020). [Children’s Song Dataset for Singing Voice Research](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). 21th International Society for Music Information Retrieval Conference (ISMIR)*.
 
 ## 7. Download <a name="download"></a>
-Download the dataset via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa)
+[Download Link](https://zenodo.org/record/4785016#.YLYW6P0QtTa)
