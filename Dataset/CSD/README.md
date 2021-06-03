@@ -67,33 +67,277 @@ t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
 
 Each phonemes are annotated based on the international phonetic alphabet (IPA) and romanized symbols are used to annotate IPA symbols. Following symbols are used for phoneme annotation.
 
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+
 ### English
-|Consonant  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-| Phoneme   |b |d |f |g |h |j |k |l |m |n |p |r |s |t |v |w |
-| IPA       |b |d |f |g |h |dʒ|k |l |m |n |p |r |s |t |v |w |
-| Phoneme   |z |zh|ch|sh|th|dh|ng|y |  |  |  |  |  |  |  |  |
-| IPA       |z |ʒ |tʃ|ʃ |θ |ð |ŋ |j |  |  |  |  |  |  |  |  |
 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="17">Consonant</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-nrix">b</td>
+    <td class="tg-nrix">d</td>
+    <td class="tg-nrix">f</td>
+    <td class="tg-nrix">g</td>
+    <td class="tg-nrix">h</td>
+    <td class="tg-nrix">j</td>
+    <td class="tg-nrix">k</td>
+    <td class="tg-nrix">l</td>
+    <td class="tg-nrix">m</td>
+    <td class="tg-nrix">n</td>
+    <td class="tg-nrix">p</td>
+    <td class="tg-nrix">r</td>
+    <td class="tg-nrix">s</td>
+    <td class="tg-nrix">t</td>
+    <td class="tg-nrix">v</td>
+    <td class="tg-nrix">w</td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">IPA</td>
+    <td class="tg-nrix">b</td>
+    <td class="tg-nrix">d</td>
+    <td class="tg-nrix">f</td>
+    <td class="tg-nrix">g</td>
+    <td class="tg-nrix">h</td>
+    <td class="tg-nrix">dʒ</td>
+    <td class="tg-nrix">k</td>
+    <td class="tg-nrix">l</td>
+    <td class="tg-nrix">m</td>
+    <td class="tg-nrix">n</td>
+    <td class="tg-nrix">p</td>
+    <td class="tg-nrix">r</td>
+    <td class="tg-nrix">s</td>
+    <td class="tg-nrix">t</td>
+    <td class="tg-nrix">v</td>
+    <td class="tg-nrix">w</td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-nrix">z</td>
+    <td class="tg-nrix">zh</td>
+    <td class="tg-nrix">ch</td>
+    <td class="tg-nrix">sh</td>
+    <td class="tg-nrix">th</td>
+    <td class="tg-nrix">dh</td>
+    <td class="tg-nrix">ng</td>
+    <td class="tg-nrix">y</td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">IPA</td>
+    <td class="tg-nrix">z</td>
+    <td class="tg-nrix">ʒ</td>
+    <td class="tg-nrix">tʃ</td>
+    <td class="tg-nrix">ʃ</td>
+    <td class="tg-nrix">θ</td>
+    <td class="tg-nrix">ð</td>
+    <td class="tg-nrix">ŋ</td>
+    <td class="tg-nrix">j</td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+</tbody>
+</table>
+<br>
 
-| Vowel     |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-| Phoneme   |ae|ei|e |ii|i |ai|a |ou|u |ao|uu|oi|au|eo|er|oo|
-| IPA       |æ |eɪ|e |i:|h |dʒ|k |l |m |n |p |r |s |t |v |w |
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="17">Vowel</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-nrix">ae</td>
+    <td class="tg-nrix">ei</td>
+    <td class="tg-nrix">e</td>
+    <td class="tg-nrix">ii</td>
+    <td class="tg-nrix">i</td>
+    <td class="tg-nrix">ai</td>
+    <td class="tg-nrix">a</td>
+    <td class="tg-nrix">ou</td>
+    <td class="tg-nrix">u</td>
+    <td class="tg-nrix">ao</td>
+    <td class="tg-nrix">uu</td>
+    <td class="tg-nrix">oi</td>
+    <td class="tg-nrix">au</td>
+    <td class="tg-nrix">eo</td>
+    <td class="tg-nrix">er</td>
+    <td class="tg-nrix">oo</td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">IPA</td>
+    <td class="tg-nrix">æ</td>
+    <td class="tg-nrix">eɪ</td>
+    <td class="tg-nrix">e</td>
+    <td class="tg-nrix">i:</td>
+    <td class="tg-nrix">h</td>
+    <td class="tg-nrix">dʒ</td>
+    <td class="tg-nrix">k</td>
+    <td class="tg-nrix">l</td>
+    <td class="tg-nrix">m</td>
+    <td class="tg-nrix">n</td>
+    <td class="tg-nrix">p</td>
+    <td class="tg-nrix">r</td>
+    <td class="tg-nrix">s</td>
+    <td class="tg-nrix">t</td>
+    <td class="tg-nrix">v</td>
+    <td class="tg-nrix">w</td>
+  </tr>
+</tbody>
+</table>
+<br>
 
 ### Korean
-| Consonant |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   |
-|-----------|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|---|
-| Phoneme   |g |kk|n |d |tt|r |l |m |b |pp|s |ss|ng|j |jj|ch |
-| IPA       |g |k͈ |n |d |t͈ |ɾ |l |m |b |p͈ |s |s͈ |ŋ |ts|ts͈|tsʰ|
-| Phoneme   |k |t |p |h |y |w |  |  |  |  |  |  |  |  |  |   |
-| IPA       |k |t |p |h |j |w |  |  |  |  |  |  |  |  |  |   |
 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="17">Consonant</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-nrix">g</td>
+    <td class="tg-nrix">kk</td>
+    <td class="tg-nrix">n</td>
+    <td class="tg-nrix">d</td>
+    <td class="tg-nrix">tt</td>
+    <td class="tg-nrix">r</td>
+    <td class="tg-nrix">l</td>
+    <td class="tg-nrix">m</td>
+    <td class="tg-nrix">b</td>
+    <td class="tg-nrix">pp</td>
+    <td class="tg-nrix">s</td>
+    <td class="tg-nrix">ss</td>
+    <td class="tg-nrix">ng</td>
+    <td class="tg-nrix">j</td>
+    <td class="tg-nrix">jj</td>
+    <td class="tg-nrix">ch</td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">IPA</td>
+    <td class="tg-nrix">g</td>
+    <td class="tg-nrix">k͈</td>
+    <td class="tg-nrix">n</td>
+    <td class="tg-nrix">d</td>
+    <td class="tg-nrix">t͈</td>
+    <td class="tg-nrix">ɾ</td>
+    <td class="tg-nrix">l</td>
+    <td class="tg-nrix">m</td>
+    <td class="tg-nrix">b</td>
+    <td class="tg-nrix">p͈</td>
+    <td class="tg-nrix">s</td>
+    <td class="tg-nrix">s͈</td>
+    <td class="tg-nrix">ŋ</td>
+    <td class="tg-nrix">ts</td>
+    <td class="tg-nrix">ts͈</td>
+    <td class="tg-nrix">tsʰ</td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-nrix">k</td>
+    <td class="tg-nrix">t</td>
+    <td class="tg-nrix">p</td>
+    <td class="tg-nrix">h</td>
+    <td class="tg-nrix">y</td>
+    <td class="tg-nrix">w</td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">IPA</td>
+    <td class="tg-nrix">k</td>
+    <td class="tg-nrix">t</td>
+    <td class="tg-nrix">p</td>
+    <td class="tg-nrix">h</td>
+    <td class="tg-nrix">j</td>
+    <td class="tg-nrix">w</td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-nrix"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+    <td class="tg-baqh"></td>
+  </tr>
+</tbody>
+</table>
+<br>
 
-| Vowel     |  |  |  |  |  |  |  |  |  |
-|-----------|--|--|--|--|--|--|--|--|--|
-| Phoneme   |a |ae|eo|e |o |u |eu|ui|i |
-| IPA       |a |ɛ |ʌ |e |o |u |ɯ |ɰi|i |
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow" colspan="10"><span style="font-weight:bold">Vowel</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-nrix">a</td>
+    <td class="tg-nrix">ae</td>
+    <td class="tg-nrix">eo</td>
+    <td class="tg-nrix">e</td>
+    <td class="tg-nrix">o</td>
+    <td class="tg-nrix">u</td>
+    <td class="tg-nrix">eu</td>
+    <td class="tg-nrix">ui</td>
+    <td class="tg-nrix">i</td>
+  </tr>
+  <tr>
+    <td class="tg-yla0">IPA</td>
+    <td class="tg-nrix">a</td>
+    <td class="tg-nrix">ɛ</td>
+    <td class="tg-nrix">ʌ</td>
+    <td class="tg-nrix">e</td>
+    <td class="tg-nrix">o</td>
+    <td class="tg-nrix">u</td>
+    <td class="tg-nrix">ɯ</td>
+    <td class="tg-nrix">ɰi</td>
+    <td class="tg-nrix">i</td>
+  </tr>
+</tbody>
+</table>
 
 
 ## 5. Supplementary Code <a name="supplementary_code"></a>
