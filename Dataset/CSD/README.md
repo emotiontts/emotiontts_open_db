@@ -1,7 +1,7 @@
 # CSD: Children's Song Dataset for Singing Voice Research
 This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa).
 
-CSD is open source dataset for singing voice research. This dataset contains 50 Korean and 50 English songs sung by one Korean female professional pop singer. Each song is recorded in two separate keys resulting in a total of 200 audio recordings. Each audio recording is paired with a MIDI transcription and lyrics annotations in both grapheme level and phoneme level.
+CSD is open source dataset for singing voice research. This dataset contains 50 Korean and 50 English songs sung by one Korean female professional pop singer. Each song is recorded in two separate keys resulting in a total of 200 audio recordings. Each audio recording is paired with a MIDI transcription and lyrics annotations in both grapheme-level and phoneme-level.
 
 1. [Dataset Structure](#dataset_structure)
 2. [Vocal Recording](#vocal_recording)
@@ -13,8 +13,6 @@ CSD is open source dataset for singing voice research. This dataset contains 50 
 
 
 ## 1. Dataset Structure <a name="dataset_structure"></a>
-The entire data splits into Korean and English and each language splits into 'wav', 'mid', 'lyric', 'txt' and 'csv' folders. Each song has the identical file name for each format. Each format represents following information. Additional information like original song name, tempo and time signature for each song can be found in 'metadata.json'.
-
 ```
 (CSD)
 ├── english
@@ -22,23 +20,27 @@ The entire data splits into Korean and English and each language splits into 'wa
 │   ├── mid
 │   ├── lyric
 │   ├── txt
-│   └── csv
+│   ├── csv
+│   └── metadata.json
 └── korean
     ├── wav
     ├── mid
     ├── lyric
     ├── txt
-    └── csv
+    ├── csv
+    └── metadata.json
 ```
+
+The entire data splits into Korean and English and each language splits into 'wav', 'mid', 'lyric', 'txt' and 'csv' folders. Each song has the identical filenames for each format. Each format represents following information. Additional information like original song name, tempo and time signature for each song can be found in 'metadata.json'.
 
 - 'wav': Vocal recordings in 44.1kHz 16bit wav format
 - 'mid': Score information in MIDI format
-- 'lyric': Lyric information in grapheme level
-- 'txt': Lyric information in syllable and phoneme level
+- 'lyric': Lyric information in grapheme-level
+- 'txt': Lyric information in syllable and phoneme-level
 - 'csv': Note onset and offset and syllable timing in comma-separated value (CSV) format
 
 ## 2. Vocal Recording <a name="vocal_recording"></a>
-Children’s songs usually have various versions in different styles and one of them that suites for the singer is chosen. While recording vocals, the singer sang along with the background music tracks. She deliberately rendered the singing in a “plain” style refraining from expressive singing skills. The recording took place in a dedicated soundproof room. Singer recorded three to four takes for each song and the best parts are combined into a single audio track. Two identical songs with different keys are discriminated by character 'a' and 'b' at the end of a filename.
+Children’s songs usually have various versions in different styles so one of them that suites for the singer is chosen. While recording vocals, the singer sang along with the background music tracks. She deliberately rendered the singing in a “plain” style refraining from expressive singing skills. The recording took place in a dedicated soundproof room. Singer recorded three to four takes for each song and the best parts are combined into a single audio track. Two identical songs with different keys are discriminated by character 'a' and 'b' at the end of a filename.
 
 ## 3. MIDI Transcription <a name="midi_transcription"></a>
 The MIDI data consists of monophonic notes. Each note contains onset and offset times which were manually fine-tuned along with the corresponding syllable. MIDI notes do not include any expression data or control change messages because those parameters can be ambiguous to define for singing voice. Singing voice is an highly expressive sound and so it is hard to define precise onset timings and pitches. We assumed one syllable matches with one MIDI note and made the following criteria to represent various expressions in singing voice.
@@ -47,11 +49,11 @@ The MIDI data consists of monophonic notes. Each note contains onset and offset 
 - The rising pitch at the beginning of a note is included within a single note.
 - The end of syllable is treated as the offset of a note.
 - The breathing sound during short pauses is not treated as note onset or offset.
-- Vibrato is treated as a single sustaining note.
+- Vibrations are treated as a single sustaining note.
 - If a syllable is rendered with several different pitches, we annotated them as separate notes.
 
 ## 4. Lyric Annotation <a name="lyric_annotation"></a>
-Text files represent pronunciation for the corresponding audio. We did not include phonetic alignment because the MIDI notes can be used for syllable timings. Text files in the 'lyric' folder contains raw text for corresponding audio and the 'txt' folder contains phoneme-level lyric representation. The phoneme-level lyric representation is annotated in a special text format. Phonemes in a syllable are tied with underbar('_') and syllables are separated with space(' ') as the example below.
+Text files represent pronunciation for the corresponding audio. Phonetic alignment is not included because the MIDI notes can be used for syllable timings. Text files in the 'lyric' folder contains raw text for corresponding audio and the 'txt' folder contains phoneme-level lyric representation. The phoneme-level lyric representation is annotated in a special text format. Phonemes in a syllable are tied with underbar('_') and syllables are separated with space(' ') as the example below.
 
 In the 'lyric' folder
 ```
@@ -63,7 +65,7 @@ In the 'text' folder
 t_w_i_ng k_eo_l t_w_i_ng k_eo_l l_i t_eo_l s_t_a_r
 ```
 
-Each phonemes are annotated based on the international phonetic alphabet (IPA) and romanized alphabets are used to annotate IPA symbols. Following symbols are used for phoneme annotation.
+Each phonemes are annotated based on the international phonetic alphabet (IPA) and romanized symbols are used to annotate IPA symbols. Following symbols are used for phoneme annotation.
 
 ### English
 |Consonant  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -95,12 +97,12 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 
 
 ## 5. Supplementary Code <a name="supplementary_code"></a>
-This repository also offers dataset validation test code and example code for loading MIDI and text file. To test the dataset run the following command:
+This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accomanpy text file. To test the dataset run the following command:
 ```
 python test.py --data_path ./
 ```
 
-If there are not problem found in the dataset, you will get the result as below.
+If no problems are found in the dataset, you will get a result as below.
 ```
 [Test Result]
 - Test A: ✔ (200/200)
@@ -110,7 +112,7 @@ If there are not problem found in the dataset, you will get the result as below.
 [MIDI Summary]
 Note Range: 54 ~ 76, Max Note Length: 0.450s
 ```
-When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file and a text_file and prints labels like a file in 'csv' folder.
+When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file an accomanpy text file and prints labels like a file in 'csv' folder using python.
 
 
 ## 6. License <a name="license"></a>
