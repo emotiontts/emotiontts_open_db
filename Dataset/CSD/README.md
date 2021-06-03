@@ -69,9 +69,9 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
 .tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
@@ -83,7 +83,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow" colspan="17">Consonant</th>
+    <th class="tg-c3ow" colspan="17"><span style="font-weight:bold">Consonant</span></th>
   </tr>
 </thead>
 <tbody>
@@ -169,7 +169,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow" colspan="17">Vowel</th>
+    <th class="tg-c3ow" colspan="17"><span style="font-weight:bold">Vowel</span></th>
   </tr>
 </thead>
 <tbody>
@@ -198,18 +198,18 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">eɪ</td>
     <td class="tg-nrix">e</td>
     <td class="tg-nrix">i:</td>
-    <td class="tg-nrix">h</td>
-    <td class="tg-nrix">dʒ</td>
-    <td class="tg-nrix">k</td>
-    <td class="tg-nrix">l</td>
-    <td class="tg-nrix">m</td>
-    <td class="tg-nrix">n</td>
-    <td class="tg-nrix">p</td>
-    <td class="tg-nrix">r</td>
-    <td class="tg-nrix">s</td>
-    <td class="tg-nrix">t</td>
-    <td class="tg-nrix">v</td>
-    <td class="tg-nrix">w</td>
+    <td class="tg-nrix">ɪ</td>
+    <td class="tg-nrix">aɪ</td>
+    <td class="tg-nrix">ɒ</td>
+    <td class="tg-nrix">oʊ</td>
+    <td class="tg-nrix">ʊ</td>
+    <td class="tg-nrix">ʌ</td>
+    <td class="tg-nrix">u:</td>
+    <td class="tg-nrix">ɔɪ</td>
+    <td class="tg-nrix">aʊ</td>
+    <td class="tg-nrix">ə</td>
+    <td class="tg-nrix">ɜ:ʳ</td>
+    <td class="tg-nrix">ɔ:</td>
   </tr>
 </tbody>
 </table>
@@ -219,7 +219,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow" colspan="17">Consonant</th>
+    <th class="tg-c3ow" colspan="17"><span style="font-weight:bold">Consonant</span></th>
   </tr>
 </thead>
 <tbody>
