@@ -97,7 +97,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 
 
 ## 5. Supplementary Code <a name="supplementary_code"></a>
-This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accomanpy text file. To test the dataset run the following command:
+This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accompanied text file. To test the dataset run the following command:
 ```
 python test.py --data_path ./
 ```
@@ -112,7 +112,7 @@ If no problems are found in the dataset, you will get a result as below.
 [MIDI Summary]
 Note Range: 54 ~ 76, Max Note Length: 0.450s
 ```
-When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file an accomanpy text file and prints labels like a file in 'csv' folder using python.
+When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file an accompanied text file and prints labels like a file in 'csv' folder using python.
 
 
 ## 6. License <a name="license"></a>
