@@ -337,7 +337,11 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 </table>
 
 ## 5. Supplementary Code <a name="supplementary_code"></a>
-This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accompanied text file. To test the dataset run the following command:
+This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accompanied text file. To test the dataset install requirements first.
+```
+pip install requirements.txt
+```
+Then run the following command:
 ```
 python test.py --data_path ./
 ```
