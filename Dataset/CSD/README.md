@@ -1,14 +1,3 @@
-<style type="text/css">
-    .tg {border-collapse:collapse;border-spacing:0;}
-    .tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
-    overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
-    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-    .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-    .tg .tg-yla0{font-weight:bold;text-align:left;vertical-align:middle}
-    .tg .tg-nrix{text-align:center;vertical-align:middle}
-</style>
-
 # CSD: Children's Song Dataset for Singing Voice Research
 This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa).
 
@@ -88,7 +77,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 </thead>
 <tbody>
   <tr>
-    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-yla0"><span style="font-weight:bold">Phoneme</span></td>
     <td class="tg-nrix">b</td>
     <td class="tg-nrix">d</td>
     <td class="tg-nrix">f</td>
@@ -107,7 +96,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">w</td>
   </tr>
   <tr>
-    <td class="tg-yla0">IPA</td>
+    <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
     <td class="tg-nrix">b</td>
     <td class="tg-nrix">d</td>
     <td class="tg-nrix">f</td>
@@ -126,7 +115,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">w</td>
   </tr>
   <tr>
-    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-yla0"><span style="font-weight:bold">Phoneme</span></td>
     <td class="tg-nrix">z</td>
     <td class="tg-nrix">zh</td>
     <td class="tg-nrix">ch</td>
@@ -145,7 +134,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix"></td>
   </tr>
   <tr>
-    <td class="tg-yla0">IPA</td>
+    <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
     <td class="tg-nrix">z</td>
     <td class="tg-nrix">ʒ</td>
     <td class="tg-nrix">tʃ</td>
@@ -174,7 +163,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 </thead>
 <tbody>
   <tr>
-    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-yla0"><span style="font-weight:bold">Phoneme</span></td>
     <td class="tg-nrix">ae</td>
     <td class="tg-nrix">ei</td>
     <td class="tg-nrix">e</td>
@@ -193,7 +182,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">oo</td>
   </tr>
   <tr>
-    <td class="tg-yla0">IPA</td>
+    <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
     <td class="tg-nrix">æ</td>
     <td class="tg-nrix">eɪ</td>
     <td class="tg-nrix">e</td>
@@ -224,7 +213,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 </thead>
 <tbody>
   <tr>
-    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-yla0"><span style="font-weight:bold">Phoneme</span></td>
     <td class="tg-nrix">g</td>
     <td class="tg-nrix">kk</td>
     <td class="tg-nrix">n</td>
@@ -243,7 +232,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">ch</td>
   </tr>
   <tr>
-    <td class="tg-yla0">IPA</td>
+    <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
     <td class="tg-nrix">g</td>
     <td class="tg-nrix">k͈</td>
     <td class="tg-nrix">n</td>
@@ -262,7 +251,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">tsʰ</td>
   </tr>
   <tr>
-    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-yla0"><span style="font-weight:bold">Phoneme</span></td>
     <td class="tg-nrix">k</td>
     <td class="tg-nrix">t</td>
     <td class="tg-nrix">p</td>
@@ -281,7 +270,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix"></td>
   </tr>
   <tr>
-    <td class="tg-yla0">IPA</td>
+    <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
     <td class="tg-nrix">k</td>
     <td class="tg-nrix">t</td>
     <td class="tg-nrix">p</td>
@@ -310,7 +299,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
 </thead>
 <tbody>
   <tr>
-    <td class="tg-yla0">Phoneme</td>
+    <td class="tg-yla0"><span style="font-weight:bold">Phoneme</span></td>
     <td class="tg-nrix">a</td>
     <td class="tg-nrix">ae</td>
     <td class="tg-nrix">eo</td>
@@ -322,7 +311,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">i</td>
   </tr>
   <tr>
-    <td class="tg-yla0">IPA</td>
+    <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
     <td class="tg-nrix">a</td>
     <td class="tg-nrix">ɛ</td>
     <td class="tg-nrix">ʌ</td>
