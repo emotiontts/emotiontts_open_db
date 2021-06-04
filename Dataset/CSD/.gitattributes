@@ -1,2 +1,0 @@
-Korean/ filter=lfs diff=lfs merge=lfs -text
-English/ filter=lfs diff=lfs merge=lfs -text
