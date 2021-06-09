@@ -343,7 +343,7 @@ If no problems are found in the dataset, you will get a result as below.
 - Test C: ✔ (200/200)
 - Test D: ✔ (200/200)
 [MIDI Summary]
-Note Range: 54 ~ 76, Max Note Length: 0.450s
+Note Range: 53 ~ 77, Max Note Length: 3.273s
 ```
 When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file an accompanied text file and prints labels like a file in 'csv' folder using python.
 
