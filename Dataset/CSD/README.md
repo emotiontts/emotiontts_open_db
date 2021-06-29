@@ -1,5 +1,5 @@
 # CSD: Children's Song Dataset for Singing Voice Research
-This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa).
+This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4916302#.YNqgDZMQtTZ).
 
 CSD is open source dataset for singing voice research. This dataset contains 50 Korean and 50 English songs sung by one Korean female professional pop singer. Each song is recorded in two separate keys resulting in a total of 200 audio recordings. Each audio recording is paired with a MIDI transcription and lyrics annotations in both grapheme-level and phoneme-level.
 
@@ -358,4 +358,4 @@ For more details, we refer to the following publication. We would highly appreci
 > *Choi, S., Kim, W., Park, S., Yong, S., & Nam, J. (2020). [Children’s Song Dataset for Singing Voice Research](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). 21th International Society for Music Information Retrieval Conference (ISMIR)*.
 
 ## 7. Download <a name="download"></a>
-[Download Link](https://zenodo.org/record/4785016#.YLYW6P0QtTa)
+[Download Link](https://zenodo.org/record/4916302#.YNqgDZMQtTZ)
