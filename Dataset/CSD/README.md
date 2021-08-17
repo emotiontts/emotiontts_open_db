@@ -309,6 +309,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">eu</td>
     <td class="tg-nrix">ui</td>
     <td class="tg-nrix">i</td>
+    <td class="tg-nrix">oe*</td>
   </tr>
   <tr>
     <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
@@ -321,9 +322,12 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">ɯ</td>
     <td class="tg-nrix">ɰi</td>
     <td class="tg-nrix">i</td>
+    <td class="tg-nrix">we</td>
   </tr>
 </tbody>
 </table>
+
+\* The phoneme 'oe' is equal to [we] but it is separately used to match with the phonemes used in the standard Korean romanization (https://www.korean.go.kr/front_eng/roman/roman_01.do).
 
 ## 5. Supplementary Code <a name="supplementary_code"></a>
 This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accompanied text file. To test the dataset install requirements first.
