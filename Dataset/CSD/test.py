@@ -145,8 +145,8 @@ def get_midi_summary(midi, midi_summary=None):
             midi_summary['max_pitch'] = note.pitch
         if note.pitch < midi_summary['min_pitch']:
             midi_summary['min_pitch'] = note.pitch
-        if note.end - note.start > midi_summary['max_pitch']:
-            midi_summary['max_pitch'] = note.end - note.start
+        if note.end - note.start > midi_summary['max_length']:
+            midi_summary['max_length'] = note.end - note.start
 
     return midi_summary
 
@@ -230,12 +230,12 @@ def main(args):
     print_test_description()
 
     test_result = TestResult()
+    midi_summary = None
     for i, language in enumerate(LANGUAGES):
         data_folder = {key: os.path.join(args.data_path, language, key) for key in FILE_TREE}
         for key in data_folder:
             test_result.path_exists[key] = os.path.exists(data_folder[key])
         
-        midi_summary = None
         progress_bar = tqdm(sorted(os.listdir(data_folder['wav'])), leave=False, bar_format='{l_bar}{bar:30}{r_bar}')
         for filename in progress_bar:
             filename = os.path.splitext(filename)[0]

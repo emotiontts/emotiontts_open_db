@@ -1,5 +1,5 @@
 # CSD: Children's Song Dataset for Singing Voice Research
-This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4785016#.YLYW6P0QtTa).
+This repository contains detailed information about [Children's Song Dataset (CSD)](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). The official dataset is released via Zenodo in this [link](https://zenodo.org/record/4916302#.YNqgDZMQtTZ).
 
 CSD is open source dataset for singing voice research. This dataset contains 50 Korean and 50 English songs sung by one Korean female professional pop singer. Each song is recorded in two separate keys resulting in a total of 200 audio recordings. Each audio recording is paired with a MIDI transcription and lyrics annotations in both grapheme-level and phoneme-level.
 
@@ -309,6 +309,7 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">eu</td>
     <td class="tg-nrix">ui</td>
     <td class="tg-nrix">i</td>
+    <td class="tg-nrix">oe*</td>
   </tr>
   <tr>
     <td class="tg-yla0"><span style="font-weight:bold">IPA</span></td>
@@ -321,9 +322,12 @@ Each phonemes are annotated based on the international phonetic alphabet (IPA) a
     <td class="tg-nrix">ɯ</td>
     <td class="tg-nrix">ɰi</td>
     <td class="tg-nrix">i</td>
+    <td class="tg-nrix">we</td>
   </tr>
 </tbody>
 </table>
+
+\* The phoneme 'oe' is equal to [we] but it is separately used to match with the phonemes used in the standard Korean romanization (https://www.korean.go.kr/front_eng/roman/roman_01.do).
 
 ## 5. Supplementary Code <a name="supplementary_code"></a>
 This repository also offers a dataset validation test code and a example code for loading a MIDI file with an accompanied text file. To test the dataset install requirements first.
@@ -343,7 +347,7 @@ If no problems are found in the dataset, you will get a result as below.
 - Test C: ✔ (200/200)
 - Test D: ✔ (200/200)
 [MIDI Summary]
-Note Range: 54 ~ 76, Max Note Length: 0.450s
+Note Range: 53 ~ 77, Max Note Length: 3.273s
 ```
 When loading MIDI or text file you can also refer to 'example.ipynb' which loads a MIDI file an accompanied text file and prints labels like a file in 'csv' folder using python.
 
@@ -358,4 +362,4 @@ For more details, we refer to the following publication. We would highly appreci
 > *Choi, S., Kim, W., Park, S., Yong, S., & Nam, J. (2020). [Children’s Song Dataset for Singing Voice Research](https://program.ismir2020.net/static/lbd/ISMIR2020-LBD-435-abstract.pdf). 21th International Society for Music Information Retrieval Conference (ISMIR)*.
 
 ## 7. Download <a name="download"></a>
-[Download Link](https://zenodo.org/record/4785016#.YLYW6P0QtTa)
+[Download Link](https://zenodo.org/record/4916302#.YNqgDZMQtTZ)
