@@ -13,7 +13,7 @@ NOTICE
 	본 Repository는 아래 기술된 전체 데이터의 5%만 공개된 것이며, 전체 데이터가 활용하고자 하는 기업 또는 
 	개인은 아래의 링크된 신청서 작성하여 제출해야함. 
 	이후 별도 별도의 심사를 거쳐 자료 제공 여부가 결정되며 미승인시 자료 제공이 거절될 수 있음.
-	신청서 : http://naver.me/GaQSRZdm
+	신청서 : https://forms.gle/Rg1UCtsanma7QxJU7
 
 
 내용
